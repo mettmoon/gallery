@@ -110,7 +110,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func item(for indexPath:IndexPath) -> GettyItem {
         return self.items[indexPath.row]
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let item = self.item(for: indexPath)
+        UIApplication.shared.open(item.pageURL, options: [:], completionHandler: nil)
+    }
 }
 
 extension ViewController : UICollectionViewDataSourcePrefetching {
