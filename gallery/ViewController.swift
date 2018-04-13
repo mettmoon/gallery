@@ -11,6 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var items:[GettyItem] = []
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? DetailViewController {
+            if let cell = sender as? UICollectionViewCell,
+                let indexPath = self.collectionView.indexPath(for: cell) {
+                vc.item = items[indexPath.row]
+            }
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         GettyManager().loadGetty { (items) in
@@ -109,10 +118,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 //    }
     func item(for indexPath:IndexPath) -> GettyItem {
         return self.items[indexPath.row]
-    }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let item = self.item(for: indexPath)
-        UIApplication.shared.open(item.pageURL, options: [:], completionHandler: nil)
     }
 }
 

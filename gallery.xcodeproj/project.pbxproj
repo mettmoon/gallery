@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		360725E4207EF5DF00DC2E29 /* GettyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360725E3207EF5DF00DC2E29 /* GettyManager.swift */; };
 		360725E6207F1C0D00DC2E29 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360725E5207F1C0D00DC2E29 /* ImageCollectionViewCell.swift */; };
+		360725EA20802F0E00DC2E29 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360725E920802F0E00DC2E29 /* DetailViewController.swift */; };
 		368AE3CF207DC75800C9B3A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AE3CE207DC75800C9B3A2 /* AppDelegate.swift */; };
 		368AE3D1207DC75800C9B3A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AE3D0207DC75800C9B3A2 /* ViewController.swift */; };
 		368AE3D4207DC75800C9B3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368AE3D2207DC75800C9B3A2 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		35E289B81D641BBB6B223AE7 /* Pods-gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-gallery/Pods-gallery.release.xcconfig"; sourceTree = "<group>"; };
 		360725E3207EF5DF00DC2E29 /* GettyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettyManager.swift; sourceTree = "<group>"; };
 		360725E5207F1C0D00DC2E29 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		360725E920802F0E00DC2E29 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		368AE3CB207DC75800C9B3A2 /* gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368AE3CE207DC75800C9B3A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		368AE3D0207DC75800C9B3A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				368AE3CE207DC75800C9B3A2 /* AppDelegate.swift */,
 				368AE3D0207DC75800C9B3A2 /* ViewController.swift */,
+				360725E920802F0E00DC2E29 /* DetailViewController.swift */,
 				368AE3D2207DC75800C9B3A2 /* Main.storyboard */,
 				360725E5207F1C0D00DC2E29 /* ImageCollectionViewCell.swift */,
 				360725E3207EF5DF00DC2E29 /* GettyManager.swift */,
@@ -208,6 +211,7 @@
 			files = (
 				368AE3D1207DC75800C9B3A2 /* ViewController.swift in Sources */,
 				360725E4207EF5DF00DC2E29 /* GettyManager.swift in Sources */,
+				360725EA20802F0E00DC2E29 /* DetailViewController.swift in Sources */,
 				360725E6207F1C0D00DC2E29 /* ImageCollectionViewCell.swift in Sources */,
 				368AE3CF207DC75800C9B3A2 /* AppDelegate.swift in Sources */,
 			);
